@@ -1,0 +1,85 @@
+:root {
+  --bg-exercise2: ;
+}
+
+.gambar img {
+  width: 50%;
+  height: 25%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.butone {
+  display: inline-block;
+  margin-top: 1.4rem;
+  text-decoration: none;
+  background-color: #7663e2;
+  color: #ffffff;
+  padding: 1.3rem 1.8rem;
+  border-radius: 0.3rem;
+  text-shadow: none;
+  font-size: 1rem;
+}
+
+.butone:hover {
+  color: #fefefe;
+  background-color: #a9ea1c;
+}
+
+/* Exercise Ke 2 Di Modul 2  */
+
+.gambarex2 img {
+  width: 50%;
+  height: 25%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+table .th .td {
+  border: 0.1px;
+  color: black;
+}
+
+.tablenya {
+  overflow: auto;
+  width: 100%;
+}
+
+.tablenya table {
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.tablenya caption {
+  caption-side: top;
+  text-align: left;
+}
+
+.tablenya th {
+  border: 0.1px solid #000000;
+  background-color: rgb(214, 104, 7);
+  color: #000000;
+  padding: 3px;
+}
+
+.tablenya td {
+  border: 1px solid #020202;
+  background-color: rgb(214, 104, 7);
+  color: #000000;
+  padding: 5px;
+}
+
+.tulisanbawah {
+  font-size: 12px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.tulisanatas {
+  font-size: 12px;
+  vertical-align: super;
+}
