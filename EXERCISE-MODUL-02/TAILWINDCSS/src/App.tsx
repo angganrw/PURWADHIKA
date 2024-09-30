@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <div className="bg-[#1a202c] text-white min-h-screen flex flex-col justify-center items-center">
+      <div className="bg-[#414142] text-white min-h-screen flex flex-col justify-center items-center">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold">Chores ToDo List</h1>
         </div>
@@ -98,7 +98,8 @@ const App: React.FC = () => {
 
         <div className="mt-8 text-center">
           <h2 className="text-lg">
-            Done: {tasks.filter((task) => task.completed).length}
+            Total Tasks : {tasks.length} ────𓇼──── Selected :{" "}
+            {tasks.filter((task) => task.completed).length}
           </h2>
         </div>
 
@@ -112,12 +113,12 @@ const App: React.FC = () => {
               value={newTask}
               onChange={(e) => setNewTask(e.target.value)}
               type="text"
-              className="border border-gray-500 rounded w-full bg-transparent h-10 px-3 focus:border-blue-500 focus:outline-none"
+              className="border border-white-100 rounded w-full bg-transparent h-10 px-3 focus:border-blue-500 focus:outline-none"
               placeholder="Enter new task"
             />
             <button
               onClick={addTask}
-              className="bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition"
+              className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition"
             >
               ADD TASK
             </button>
