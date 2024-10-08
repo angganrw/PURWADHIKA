@@ -35,7 +35,7 @@ const About: React.FC = () => {
 
           <div className="mt-6">
             <a
-              href="/path/to/cv.pdf"
+              href="/contact"
               download
               className="bg-blue-500 text-white py-2 px-4 rounded transition duration-300  hover:bg-blue-600 mb-96"
             >
