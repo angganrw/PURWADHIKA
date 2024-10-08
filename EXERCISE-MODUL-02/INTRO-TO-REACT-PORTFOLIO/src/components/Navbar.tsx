@@ -21,7 +21,11 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="logo">
           <img
+<<<<<<< HEAD
             src="/img/wslogo.png"
+=======
+            src="./src/assets/img/01.PNG"
+>>>>>>> e41f536f2ceac7df0c5e539a9e0bf6689a4dffa5
             alt="wslogo"
             className="max-w-[100px] max-h-[40px]"
           />

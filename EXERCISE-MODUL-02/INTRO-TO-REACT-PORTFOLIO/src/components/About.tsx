@@ -46,7 +46,11 @@ const About: React.FC = () => {
 
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
+<<<<<<< HEAD
             src="/img/wslogo.png"
+=======
+            src="./src/assets/img/01.PNG"
+>>>>>>> e41f536f2ceac7df0c5e539a9e0bf6689a4dffa5
             alt="wslogo"
             className="w-64 h-64 rounded-full shadow-2xl"
           />
