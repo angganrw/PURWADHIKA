@@ -35,7 +35,7 @@ const About: React.FC = () => {
 
           <div className="mt-6">
             <a
-              href="/path/to/cv.pdf"
+              href="/contact"
               download
               className="bg-blue-500 text-white py-2 px-4 rounded transition duration-300  hover:bg-blue-600 mb-96"
             >
@@ -46,7 +46,7 @@ const About: React.FC = () => {
 
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
-            src="./src/assets/img/wslogo.png"
+            src="/img/wslogo.png"
             alt="wslogo"
             className="w-64 h-64 rounded-full shadow-2xl"
           />
