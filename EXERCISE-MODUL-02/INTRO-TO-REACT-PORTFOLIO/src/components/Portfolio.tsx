@@ -32,19 +32,19 @@ const Portfolio: React.FC = () => {
           <Portsrc
             title="Create to-do list with React + CSS framework"
             description="Create to-do list with React + CSS framework ."
-            gambarURL="./src/assets/todolist.png"
+            gambarURL="./src/assets/img/todolist.png"
             linkURL="https://angganrw-tailwindcss.vercel.app/"
           />
           <Portsrc
             title="Create an application to input user data"
             description="Create two pages, the first one is for display data users with table and the second one is a form to register the users."
-            gambarURL="./src/assets/networkcall.png"
+            gambarURL="./src/assets/img/networkcall.png"
             linkURL="https://angganrw-exercise9.vercel.app/register"
           />
           <Portsrc
             title="Github Exercise"
             description="Github Exercise Class on Purwadhika"
-            gambarURL="./src/assets/gatauapalagihehe.png"
+            gambarURL="./src/assets/img/gatauapalagihehe.png"
             linkURL="https://github.com/angganrw/PURWADHIKA"
           />
         </div>

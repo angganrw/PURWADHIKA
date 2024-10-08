@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="left w-1/2">
-          <h3 className="text-[100px] mb-[25px]">
+          <h3 className="text-[100px] mb-[25px] text-white">
             Angga <span className="text-extra-color">Nirwana</span>
           </h3>
           <p className="text-white text-[23px] font-medium mb-[50px]">
