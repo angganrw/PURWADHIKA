@@ -39,7 +39,7 @@ const Portfolio: React.FC = () => {
             title="Create an application to input user data"
             description="Create two pages, the first one is for display data users with table and the second one is a form to register the users."
             gambarURL="/img/networkcall.png"
-            linkURL="https://angganrw-exercise9.vercel.app/register"
+            linkURL="https://angganrw-exercise9.vercel.app/"
           />
           <Portsrc
             title="Github Exercise"
