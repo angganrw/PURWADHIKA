@@ -1,4 +1,3 @@
-// pages/portfolio.tsx
 import Portsrc from "../portfolio/components/portsrc";
 
 const PortfolioView: React.FC = () => {
